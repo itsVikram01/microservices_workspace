@@ -1,0 +1,31 @@
+package com.hotel.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.hotel.repository.HotelRepository;
+
+public class HotelServiceImpl implements HotelService {
+
+	// user operation
+			@Autowired
+			public HotelRepository hotelRepository;
+
+			// create
+			@Override
+			public User createUser(User user) {
+				//String randomUserId=UUID.randomUUID().toString();
+				//user.setUserId(randomUserId);
+				return userRepository.save(user);
+			}
+
+			@Override
+			public List<User> getAllUsers() {
+				return userRepository.findAll();
+			}
+
+			@Override
+			public User getUserByUserId(String userId) {
+				return userRepository.findById(userId)
+						.orElseThrow(() -> new ResourceNotFoundException("User with given id is not found...!!"+userId));
+			}
+}

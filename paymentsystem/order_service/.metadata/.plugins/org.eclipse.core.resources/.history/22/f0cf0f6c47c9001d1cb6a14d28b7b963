@@ -1,0 +1,27 @@
+package com.order.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.order.common.Payment;
+import com.order.common.TxnRequest;
+import com.order.common.TxnResponse;
+import com.order.entity.Order;
+import com.order.service.OrderService;
+
+@RestController
+@RequestMapping("/order")
+public class OrderController {
+
+	@Autowired
+	private OrderService service;
+	
+	@PostMapping("/bookOrder")
+	public TxnResponse bookOrder(@RequestBody TxnRequest txnRequest) {
+		return service.saveOrder(txnRequest);
+		// do a rest call to payment and pass the order id
+	}
+}

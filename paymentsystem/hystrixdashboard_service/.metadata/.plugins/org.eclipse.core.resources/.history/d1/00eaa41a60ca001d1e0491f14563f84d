@@ -1,0 +1,5 @@
+package com.hystrixdashboard.controller;
+
+public class SampleController {
+
+}

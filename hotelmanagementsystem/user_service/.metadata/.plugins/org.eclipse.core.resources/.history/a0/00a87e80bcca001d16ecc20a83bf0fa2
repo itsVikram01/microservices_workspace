@@ -1,0 +1,5 @@
+package com.user.general;
+
+public class ApiResponse {
+
+}

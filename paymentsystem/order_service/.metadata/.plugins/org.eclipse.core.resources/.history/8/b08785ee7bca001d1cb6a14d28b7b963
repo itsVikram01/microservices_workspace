@@ -1,0 +1,35 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: ORDER-SERVICE
+    
+  config:
+    import: 
+    - https://github.com/itsVikram01/microservice-cloud-config
+  
+      
+#spring.config.import=configserver
+
+    
+  cloud:
+    config:
+      uri:
+      - http://localhost:9007 
+      
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/order_db_microservice?createDatabaseIfNotExist=true
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate: 
+        dialect: org.hibernate.dialect.MySQLDialect
+      
+      

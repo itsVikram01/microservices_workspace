@@ -1,0 +1,13 @@
+server:
+  port: 8000
+  
+spring:
+  application:
+    name: APIGATEWAY-SERVICE
+    
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultzone: http://localhost:8761/eureka

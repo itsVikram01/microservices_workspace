@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: RATING-SERVICE
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/hms-hotel_db
+      database: hms-hotel_db

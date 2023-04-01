@@ -1,0 +1,11 @@
+server:
+  port: 8012
+  
+spring:
+  application:
+    name: RATING-SERVICE
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: hms-hotel_db

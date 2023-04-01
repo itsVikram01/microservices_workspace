@@ -1,0 +1,23 @@
+package com.payment.service;
+
+import java.util.UUID;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.payment.entity.Payment;
+import com.payment.repostory.PaymentRepository;
+
+@Service
+public class PaymentService {
+
+	@Autowired
+	private PaymentRepository repository;
+	
+	public Payment doPayment(Payment payment) {
+		payment.setPayStatus(paymentProcessing());
+		payment.setTxnId(UUID.randomUUID().toString());
+		return repository.save(payment);		
+	}
+	
+}

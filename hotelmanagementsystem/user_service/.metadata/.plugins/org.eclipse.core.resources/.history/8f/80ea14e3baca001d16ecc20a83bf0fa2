@@ -1,0 +1,13 @@
+package com.user.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException {
+
+	@Override
+	public ResourceNotFoundException() {
+		super("Resource not found on server !!");
+	}
+	@Override
+	public ResourceNotFoundException(String userId) {
+		super("Resource not found on server !!");
+	}
+}

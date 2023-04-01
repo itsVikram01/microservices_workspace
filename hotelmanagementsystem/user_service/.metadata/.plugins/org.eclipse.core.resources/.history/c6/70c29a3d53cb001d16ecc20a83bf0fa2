@@ -1,0 +1,48 @@
+package com.user.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.user.entity.User;
+import com.user.service.UserService;
+
+@RestController
+@RequestMapping("/user")
+public class UserController {
+
+	@Autowired
+	private UserService userService;
+	
+	
+	//create
+	/*
+	@PostMapping("/createUser")
+	public User createUser(@RequestBody User user) throws Exception {
+		return userService.createUser(user);
+	}
+	*/
+	@PostMapping("/createUser")
+	public User createUser(@RequestBody User user) throws Exception {
+		return userService.createUser(user);
+	}
+	/*
+	//single user get
+	@GetMapping("/getById/{userId}")
+	public ResponseEntity<User> getSingleUser(@PathVariable String userId) {
+		//User userById = userService.getUserByUserId(userId);
+		return userService.sa;
+	} 
+	//all user get
+	@GetMapping("/getAllUser")
+	public ResponseEntity<List<User>> getAllUser() {
+		List<User> allUsers = userService.;
+		return ResponseEntity.ok(allUsers);
+	}
+	*/
+	
+}

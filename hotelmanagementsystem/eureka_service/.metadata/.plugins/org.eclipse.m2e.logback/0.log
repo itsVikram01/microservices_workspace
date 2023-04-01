@@ -1,0 +1,143 @@
+2023-03-26 22:32:19,343 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-26 22:32:54,474 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:eurekaService:0.0.1-SNAPSHOT @ D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\pom.xml.
+2023-03-26 22:32:59,897 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaService/src/main/java
+2023-03-26 22:32:59,897 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaService/src/main/resources
+2023-03-26 22:32:59,907 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaService/src/main/resources
+2023-03-26 22:32:59,920 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaService/src/test/java
+2023-03-26 22:33:05,739 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 14 sec
+2023-03-26 22:33:06,525 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-26 22:33:06,548 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-26 22:33:06,553 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-26 22:34:16,152 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-26 22:34:16,363 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-26 22:34:16,368 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-26 22:34:42,526 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-26 22:34:42,529 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-26 22:34:42,533 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-26 22:36:09,506 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-26 22:36:09,512 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-26 22:36:09,515 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-26 22:36:38,218 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-26 22:36:38,229 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-26 22:36:38,233 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-26 22:37:20,362 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-26 22:37:20,364 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-26 22:37:20,366 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-26 22:40:08,826 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-26 22:40:08,860 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-26 22:40:08,863 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-26 22:41:00,705 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-26 22:41:00,721 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-26 22:41:00,726 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-26 22:45:40,710 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-26 22:45:40,835 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-26 22:45:40,929 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-26 22:46:10,065 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-26 22:46:10,111 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-26 22:46:10,114 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-26 22:46:14,235 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-26 22:46:14,294 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-26 22:46:14,299 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-27 11:47:59,333 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-27 11:49:26,734 [Worker-6: Launching eurekaService - EurekaServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:49:26,767 [Worker-6: Launching eurekaService - EurekaServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:49:26,773 [Worker-6: Launching eurekaService - EurekaServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 01:22:03,848 [Worker-292: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 01:22:04,056 [Worker-292: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 01:22:04,062 [Worker-292: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 01:22:14,595 [Worker-294: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 01:22:14,602 [Worker-294: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 01:22:14,605 [Worker-294: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 01:27:50,577 [Worker-292: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 01:27:50,668 [Worker-292: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 01:27:50,674 [Worker-292: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 01:28:32,119 [Worker-292: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 01:28:32,129 [Worker-292: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 01:28:32,132 [Worker-292: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:01:07,891 [Worker-304: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:eurekaService:0.0.1-SNAPSHOT @ D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\pom.xml.
+2023-03-28 02:01:08,788 [Worker-304: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:01:08,789 [Worker-304: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:01:08,793 [Worker-304: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:01:11,192 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:01:11,238 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:01:11,243 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:01:23,125 [Worker-304: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-28 02:01:23,689 [Worker-304: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:eurekaService:0.0.1-SNAPSHOT @ D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\pom.xml.
+2023-03-28 02:01:24,942 [Worker-304: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaService/src/main/java
+2023-03-28 02:01:24,943 [Worker-304: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaService/src/main/resources
+2023-03-28 02:01:24,944 [Worker-304: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaService/src/main/resources
+2023-03-28 02:01:24,945 [Worker-304: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaService/src/test/java
+2023-03-28 02:01:26,089 [Worker-304: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2023-03-28 02:01:26,458 [Worker-304: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:01:26,485 [Worker-304: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:01:26,490 [Worker-304: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:04:08,511 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:04:08,516 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:04:08,519 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:05:09,231 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:05:09,235 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:05:09,237 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:06:19,167 [Worker-305: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:eurekaService:0.0.1-SNAPSHOT @ D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\pom.xml.
+2023-03-28 02:06:19,919 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:06:19,919 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:06:19,922 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:06:21,312 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:06:21,335 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:06:21,339 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:06:28,705 [Worker-307: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-28 02:06:28,960 [Worker-307: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:eurekaService:0.0.1-SNAPSHOT @ D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\pom.xml.
+2023-03-28 02:06:29,467 [Worker-307: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaService/src/main/java
+2023-03-28 02:06:29,467 [Worker-307: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaService/src/main/resources
+2023-03-28 02:06:29,468 [Worker-307: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaService/src/main/resources
+2023-03-28 02:06:29,468 [Worker-307: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaService/src/test/java
+2023-03-28 02:06:29,772 [Worker-307: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-03-28 02:06:30,018 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:06:30,032 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:06:30,037 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:36:30,526 [Worker-307: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:eurekaService:0.0.1-SNAPSHOT @ D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\pom.xml.
+2023-03-28 02:36:33,000 [Worker-307: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:36:33,000 [Worker-307: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:36:33,003 [Worker-307: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:36:36,445 [Worker-313: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:36:36,501 [Worker-313: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:36:36,513 [Worker-313: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:36:44,707 [Worker-315: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:36:44,741 [Worker-315: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:36:44,744 [Worker-315: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:41:01,148 [Worker-316: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:eurekaService:0.0.1-SNAPSHOT @ D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\pom.xml.
+2023-03-28 02:41:01,876 [Worker-316: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:41:01,876 [Worker-316: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:41:01,878 [Worker-316: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:41:03,345 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:41:03,372 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:41:03,375 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:41:14,879 [Worker-317: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:41:14,885 [Worker-317: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:41:14,887 [Worker-317: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:41:44,334 [Worker-307: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:41:44,344 [Worker-307: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:41:44,347 [Worker-307: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:43:22,257 [Worker-316: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-28 02:43:22,576 [Worker-316: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:eurekaService:0.0.1-SNAPSHOT @ D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\pom.xml.
+2023-03-28 02:43:23,280 [Worker-316: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaService/src/main/java
+2023-03-28 02:43:23,281 [Worker-316: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaService/src/main/resources
+2023-03-28 02:43:23,281 [Worker-316: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaService/src/main/resources
+2023-03-28 02:43:23,281 [Worker-316: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaService/src/test/java
+2023-03-28 02:43:23,723 [Worker-316: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-03-28 02:43:24,027 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:43:24,042 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:43:24,046 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:44:03,260 [Worker-314: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:eurekaService:0.0.1-SNAPSHOT @ D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\pom.xml.
+2023-03-28 02:44:03,902 [Worker-314: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:44:03,903 [Worker-314: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:44:03,905 [Worker-314: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:44:05,238 [Worker-316: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:44:05,262 [Worker-316: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:44:05,265 [Worker-316: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:46:09,007 [Worker-318: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:eurekaService:0.0.1-SNAPSHOT @ D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\pom.xml.
+2023-03-28 02:46:09,621 [Worker-318: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:46:09,621 [Worker-318: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:46:09,623 [Worker-318: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources
+2023-03-28 02:46:10,957 [Worker-317: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 02:46:10,980 [Worker-317: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 02:46:10,983 [Worker-317: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\sts_workspace\microservices\hotelmanagementsystem\eureka_service\eurekaService\src\test\resources

@@ -1,0 +1,29 @@
+package com.payment.service;
+
+import java.util.Random;
+import java.util.UUID;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.payment.entity.Payment;
+import com.payment.repostory.PaymentRepository;
+
+@Service
+public class PaymentService {
+
+	@Autowired
+	private PaymentRepository repository;
+	
+	public Payment doPayment(Payment payment) {
+		payment.setPayStatus(paymentProcessing());
+		payment.setTxnId(UUID.randomUUID().toString());
+		return repository.save(payment);		
+	}
+
+	private String paymentProcessing() {
+		//3rd party payment gateway(paytm, paypal...)
+		return new Random().nextBoolean()?"success":"false";
+	}
+	
+}

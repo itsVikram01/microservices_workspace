@@ -1,0 +1,28 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: ORDER-SERVICE
+    
+#spring.config.import=configserver: property    
+  config:
+    import:
+    - configserver:http://localhost:9007
+    label: main
+      
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/order_db_microservice?createDatabaseIfNotExist=true
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate: 
+        dialect: org.hibernate.dialect.MySQLDialect
+      
+      

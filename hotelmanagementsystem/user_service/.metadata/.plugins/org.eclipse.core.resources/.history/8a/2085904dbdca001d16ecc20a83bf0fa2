@@ -1,0 +1,17 @@
+package com.user.exceptions;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.user.general.ApiResponse;
+
+@RestController
+public class GlobalExceptionHandler {
+
+	public ResponseEntity<ApiResponse> gehResourceNotFoundException(ResourceNotFoundException reException) {
+		String message = reException.getMessage();
+		ApiResponse.
+		
+		return null;		
+	}
+}

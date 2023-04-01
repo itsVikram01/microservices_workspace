@@ -1,0 +1,13 @@
+package com.hotel.common.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class RestTemplate {
+
+    @Bean
+    RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
+}

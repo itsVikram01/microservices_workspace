@@ -1,0 +1,11 @@
+server.port=9003
+
+spring.application.name=ORDER_SERVICE
+
+eureka.client.register-with-eureka=true
+
+eureka.client.fetch-registry=true
+
+eureka.client.service-url.defaultzone=http://localhost:9003/order/bookOrder/
+
+eureka.instance.hostname=localhost

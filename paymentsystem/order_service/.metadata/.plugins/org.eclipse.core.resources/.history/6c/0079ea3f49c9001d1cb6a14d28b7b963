@@ -1,0 +1,38 @@
+package com.order.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.order.common.Payment;
+import com.order.common.TxnRequest;
+import com.order.common.TxnResponse;
+import com.order.entity.Order;
+import com.order.repository.OrderRepository;
+
+@Service
+public class OrderService {
+
+	@Autowired
+	private OrderRepository repository;
+	
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	public TxnResponse saveOrder(TxnRequest txnRequest) {
+		String response=""; 
+		Order order=txnRequest.getOrder();
+		Payment payment=txnRequest.getPayment();
+		payment.setOrderId(order.getId());
+		payment.setAmount(order.getPrice());
+		//rest call
+		Payment payResponse = restTemplate
+				.postForObject("http://localhost:9004/payment/doPayment", payment, Payment.class);
+		response=payResponse
+				.getPayStatus()
+				.equals("success") ? "payment successfull" : "payment error";
+		repository.save(order);	
+		return new TxnResponse(order, payResponse.getAmount(), payResponse.getTxnId(), response);
+	}
+	
+}

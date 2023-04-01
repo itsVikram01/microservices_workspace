@@ -1,0 +1,70 @@
+package com.user.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.user.common.ResourceNotFoundException;
+import com.user.entity.Rating;
+import com.user.entity.User;
+import com.user.repository.UserRepository;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	// user operation
+	@Autowired
+	public UserRepository userRepository;
+	
+	// restTemplate for communicating services
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	private Logger logger=LoggerFactory.getLogger(UserServiceImpl.class);
+
+	// create
+	@Override
+	public User createUser(User user) {
+		//String randomUserId=UUID.randomUUID().toString();
+		//user.setUserId(randomUserId);
+		return userRepository.save(user);
+	}
+
+	@Override
+	public List<User> getAllUsers() {
+		List<User> users = userRepository.findAll();
+		return users;
+	}
+
+	@Override
+	public User getUserByUserId(String userId) {
+		
+		//get user from db using repository
+		User user = userRepository.findById(userId)
+				.orElseThrow(() -> new ResourceNotFoundException("User with given id is not found...!!"+userId));
+		
+		// fetch rating of the above user from RATING-SERVICE
+		// http://localhost:8012/rating/user/101
+		@SuppressWarnings("unchecked")
+		ArrayList<Rating> ratingsOfUser = restTemplate.getForObject("http://localhost:8012/rating/user/"+user.getUserId(), ArrayList.class);
+		logger.info(" {} ", ratingsOfUser);
+		
+		//fetch hotel rating 
+		List<Rating> ratingOfHotel = ratingsOfUser.stream().map(rating -> {
+			//api call to hotel service to get the hotel
+			//se the hotel to rating
+			//return the rating
+			return rating;
+		}).collect(Collectors.toList());
+		
+		user.setRatings(ratingsOfUser);
+		return user;
+	}
+
+}

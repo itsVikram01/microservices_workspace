@@ -1,0 +1,7 @@
+server.port=9004
+
+spring.h2.console.enabled=true
+
+spring.application.name=PAYMENT_SERVICE
+
+eureka.client.register-with-eureka=true

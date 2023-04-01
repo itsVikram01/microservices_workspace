@@ -1,0 +1,16 @@
+package com.order.common;
+
+import com.order.entity.Order;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class TxnRequest {
+
+	private Order order;
+	private Payment payment;
+}

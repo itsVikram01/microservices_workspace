@@ -1,0 +1,26 @@
+package com.user.service;
+
+import java.util.List;
+import com.user.entity.User;
+import com.user.repository.UserRepository;
+
+public class UserService {
+
+	// user operation
+	public UserRepository userRepository;
+	
+	//create
+	User saveUser(User user) {
+		return userRepository.save(user);
+	}
+	
+	//get all user of given userid
+	List<User> getAllUsers();
+
+	//get single user
+	User getUserByUserId(String userId);
+	
+	// delete
+	
+	// update
+}

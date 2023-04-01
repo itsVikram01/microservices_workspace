@@ -1,0 +1,10 @@
+package com.order.common;
+
+import com.order.entity.Order;
+
+public class TxnResponse {
+
+	private Order order;
+	private int amount;
+	private String txnId;
+}

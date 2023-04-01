@@ -1,0 +1,19 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: CLOUDCONFIGSERVER-SERVICE
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/itsVikram01/microservices/hms-cloudconfigserver
+      
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
